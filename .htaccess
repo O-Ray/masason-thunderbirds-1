@@ -9,3 +9,5 @@ AuthType Basic
 require valid-user 
 DirectoryIndex index.html blog.html article.html aircraftData.html team.html   
 order deny,allow
+
+
