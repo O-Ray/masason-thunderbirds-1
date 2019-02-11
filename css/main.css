@@ -23,7 +23,7 @@ a{
   left: 0px;
   z-index: 50;
   width: 100%;
-  height: 70px;
+  height: 5vw;
   text-align: center;
 }
 .menuMessage{
@@ -35,13 +35,13 @@ a{
 .menuberList{
   display: inline-block;
   margin-left: 4%;
-  margin-top: 10px;
+  margin-top: 1vw;
 }
 .snsIconText{
   color: white;
   margin-left: 63%;
-  margin-top: -1%;
-  font-size: 0.8vw;
+  margin-top: -2%;
+  font-size: 1.4vw;
 }
 
 
@@ -199,14 +199,14 @@ a{
   color: #F5F5FF;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: -50px;
+  margin-top: -3vh;
   font-family: "ＭＳ Ｐゴシック", sans-serif;
 }
 .snsIcons{
   width: 1.7%;
   margin-left: 60%;
   margin-top: 20px;
-  min-width: 30px;
+  min-width: 14px;
 }
 
 #aircraftDataText{

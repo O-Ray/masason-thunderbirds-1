@@ -46,7 +46,8 @@ body{
 .viewBlogContents{
   margin-left: 18%;
   margin-right: 5%;
-  font-size: 1.5vh;
+  font-size: 1.3vw;
+  margin-top: 1vw;
 }
 .blogTag{
   color: rgb(22,97,117);

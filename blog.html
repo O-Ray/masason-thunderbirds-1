@@ -92,18 +92,18 @@
 			//パイロット/リスク管理/設計・電装/広報/大会関係
 			for (var i = 0; i < blogData.length; i++) {
 				if(blogData[i][13] === 'パイロット'){
-					$('#blogUl1').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(1)">#パイロット</p></li>');
+					$('#blogUl1').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(1)">#パイロット</p></li>');
 				}else if(blogData[i][13] === 'リスク管理'){
-						$('#blogUl2').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(2)">#リスク管理</p></li>');
+						$('#blogUl2').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(2)">#リスク管理</p></li>');
 				}else if(blogData[i][13] === '設計・電装'){
-						$('#blogUl3').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(3)">#設計・電装</p></li>');
+						$('#blogUl3').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(3)">#設計・電装</p></li>');
 				}else if(blogData[i][13] === '広報'){
-						$('#blogUl4').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(4)">#広報</p></li>');
+						$('#blogUl4').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(4)">#広報</p></li>');
 				}else if(blogData[i][13] === '大会関係'){
-						$('#blogUl5').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(5)">#大会関係</p></li>');
+						$('#blogUl5').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag" onclick="setTag(5)">#大会関係</p></li>');
 				}
 				if(blogData[i][12] === 'Yes'){
-						$('#blogUl0').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><br><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag">#新着<span class="blogTag" style="margin-left: 1%;">#' + blogData[i][13] + '</span></li>');
+						$('#blogUl0').append('<li class="blogView" onclick="clickArticle(' + i + ')"><img src="' + blogData[i][3] + '" class="viewBlogPicture"><p class="viewBlogTitle" onclick="clickArticle(' + i + ')">' + blogData[i][1] + '</p><p class="viewBlogContents">' + blogData[i][2].substr(0,50) + '....</p><p class="blogTag">#新着<span class="blogTag" style="margin-left: 1%;">#' + blogData[i][13] + '</span></li>');
 
 				}
 			}
