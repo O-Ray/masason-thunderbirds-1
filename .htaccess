@@ -1,11 +1,5 @@
-<Files ~ "^\.(htaccess|htpasswd)$">
-deny from all
-</Files>
-Options -Indexes
 AuthUserFile /Users/ootsukarei/Desktop/programming/masason-thunderbirds-1/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
-require valid-user 
-DirectoryIndex index.html aircraftData.html article.html blog.html team.html   
-order deny,allow
+require valid-user
