@@ -11,6 +11,14 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </head>
 <body>
+		<script type="text/javascript">
+			if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				// スマホ用のページにリダイレクトする
+				location.href = '/sp/index.html';
+			}else{
+				console.log('pc');
+			}
+		</script>
 		<div class="top">
 			<img src="http://drive.google.com/uc?export=view&id=1rrXm7HCNORPnpj5CElTSue45guM_PhRL" class="titlePicture">
 		</div>

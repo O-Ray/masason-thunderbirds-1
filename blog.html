@@ -112,6 +112,14 @@
 		<script src="https://spreadsheets.google.com/feeds/cells/1U6wKDFLuuRR7P5EQ4VcfIZemfWF0ALSzyyoGfHnYZdc/1/public/values?alt=json-in-script&callback=doData"></script>
 </head>
 <body id="blogBody" onload="setCheck()">
+		<script type="text/javascript">
+			if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				// スマホ用のページにリダイレクトする
+				location.href = '/sp/blog.html';
+			}else{
+				console.log('pc');
+			}
+		</script>
 		<img src="http://drive.google.com/uc?export=view&id=1MYiC1hP3mnhuyUoi8XAWvWvrL8ljCyNm" class="titlePicture">
 		<div class="header">
 			<nav>
