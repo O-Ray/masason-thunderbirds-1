@@ -50,6 +50,8 @@
 																								 .replace(';Img2','<br><img src="' + data[(arrayNo - 9)]['content']['$t'] + '" style ="width: 90%;">')
 																								 .replace(';Img3','<br><img src="' + data[(arrayNo - 8)]['content']['$t'] + '" style ="width: 90%;">')
 																								 .replace(';Img4','<br><img src="' + data[(arrayNo - 7)]['content']['$t'] + '" style ="width: 90%;">')
+																								 .replace('--*', '<span>')
+																								 .replace('*--', '</span>')
 																								 .replace(';Video', '<br>' + data[(arrayNo - 6)]['content']['$t'])
 																								 .replace(';Video', '<br>' + data[(arrayNo - 5)]['content']['$t'])
 																								 .replace(';Video', '<br>' + data[(arrayNo - 4)]['content']['$t']),//本文
