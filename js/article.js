@@ -3,7 +3,7 @@ function setStyle(){
   let blogData = JSON.parse(localStorage.getItem('blogData'));
   let articleNo = localStorage.getItem('articleNo');
   console.log(blogData[articleNo][13]);
-  $('.articleBody').append('<img src="' + blogData[articleNo][3] + '" class="blogTopImage"><br><p class="title">【' + blogData[articleNo][0] + '】' + blogData[articleNo][1] + '<p><p class="blogTag_article" onclick="jumpTag(' + "'" + blogData[articleNo][13] + "'" + ')">#' + blogData[articleNo][13] + '</p><p class="article_article">' + blogData[articleNo][2].replace('--*', '<span style="font-weight: bolder;">').replace('*--', '</span>') + '<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>');
+  $('.articleBody').append('<img src="' + blogData[articleNo][3] + '" class="blogTopImage"><br><p class="title">【' + blogData[articleNo][0] + '】' + blogData[articleNo][1] + '<p><p class="blogTag_article" onclick="jumpTag(' + "'" + blogData[articleNo][13] + "'" + ')">#' + blogData[articleNo][13] + '</p><p class="article_article">' + blogData[articleNo][2].replace('--*', '<span style="font-weight: 900;">').replace('*--', '</span>') + '<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>');
 }
 
 function jumpTag(num){
